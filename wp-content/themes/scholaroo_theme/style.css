@@ -1,0 +1,22 @@
+/*   
+Theme Name: Scholaroo Child Theme
+Theme URI: 
+Description: Scholaroo Design theme based on Thematic
+Author: Heather Steckly
+Author URI: http://www.heathersteckly.com/
+Template: thematic
+Version: 1.0
+Tags: Thematic
+.
+Thematic is © Ian Stewart http://themeshaper.com/
+.
+*/
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+/* Import Thematic CSS Files */
+@import url('../thematic/library/styles/typography.css');
+@import url('../thematic/library/styles/images.css');
+@import url('css/responsive.css');
+@import url('css/extend.css');
+@import url('css/mobile.css');

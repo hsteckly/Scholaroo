@@ -1,0 +1,61 @@
+@media screen and ( max-width: 1140px ){
+	/*Call to action */
+	.call-inner{
+		max-width: 96%;
+		margin: 0 auto;
+		padding-left: 2%;
+	}
+}
+
+
+@media screen and ( max-width: 768px ){
+	.home .scholarship-card .scholarship-details {
+    	width: 45%;
+	}
+
+	/*Menu*/
+	.mobile-menu{
+		display: block;
+		float: right;
+		top: -50px;
+		position: relative;
+		text-align: right;
+	}
+
+	.home .mobile-menu{
+		display: block;
+		float: right;
+		top: -50px;
+		position: relative;
+		text-align: right;
+	}
+
+	#main-menu .top-menu{
+		display:none;
+	}
+
+	ul.ml_1{
+		list-style: none;
+    	padding-left: 0;
+	}
+
+	/*Home*/
+	.blocks h1 {
+	    position: relative;
+	    bottom: initial;
+	    color: #33475a;
+	    text-transform: uppercase;
+	    left: 0;
+	    margin-left: 0;
+	    text-align: center;
+	    padding-top: 0.5em;
+	}
+
+}
+
+@media screen and ( max-width: 667px ){
+	.home .scholarship-card .scholarship-details {
+    	width: 98%;
+	}
+}
+

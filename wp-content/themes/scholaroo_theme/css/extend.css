@@ -1,0 +1,408 @@
+/*
+
+pink: #e25055;
+blue: #33475a;
+grey: #888888;
+*/
+
+/*Basics*/
+body {
+	font-family: "source-sans-pro",sans-serif;
+	color: #888888;
+	background: #f2f2f2;
+}
+
+::selection {
+    background: #888888;
+}
+
+.clearfix{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+#branding{
+    max-width: 100%;
+    margin-left: 5%;
+}
+
+.entry-utility{
+	display:none;
+}
+
+.page-title span {
+	font-style:normal;
+}
+
+a {
+	color: #33475a;
+	font-weight:bold;
+}
+
+a:visited {
+	color: #33475a;
+	font-weight:bold;
+}
+
+a:hover {
+	color: #e25055;
+}
+
+h1 {
+	font-family: "oswald",sans-serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: "oswald",sans-serif;
+	letter-spacing: 1px;
+}
+
+h3 {
+	font-family: "oswald",sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h4 {
+	font-family: "oswald",sans-serif;
+	letter-spacing: 1px;
+}
+
+
+button{
+	background-color: #e25055;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+    border-radius: 30px;
+    font-family: "oswald",sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #e25055;
+}
+
+button:hover{
+	background-color: #fff;
+	color: #e25055;
+	border: 1px solid #e25055;
+}
+
+/*Global*/
+
+.focus{
+	font-family: "oswald",sans-serif;
+	text-transform: uppercase;
+	font-size: 1.25em;
+}
+
+.tab{
+	background-color: #33475a;
+    color: #fff;
+    padding: 1em 2em;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.mobile-menu{
+	display:none;
+}
+
+
+
+/*Header*/
+
+.logo{
+	background-image: url('../img/kangaroo-fill.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 55px;
+    width: 53px;
+    float: left;
+    z-index: 1;
+    position: relative;
+}
+
+.top-menu{
+	list-style-type: none;
+	display: inline-block;
+	float:right;
+}
+
+.top-menu li{
+	display:inline-block;
+    margin: 0 0.5em;
+    text-transform: uppercase;
+}
+
+.top-menu li.current_page_item, .top-menu li.current-menu-item{
+	border-bottom: 2px #33475a solid;
+}
+
+.top-menu li a{
+	font-weight: normal;
+}
+
+#footer {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*Home*/
+
+.home-header{
+    width: 100%;
+    min-height: 400px;
+}
+
+.header-pink{
+	width: 50%;
+	float:left;
+	background-color: #e25055;
+	position: absolute;
+	left:0;
+	height:500px;
+	background-image: url('../img/kangaroo-01.png');
+	background-repeat: no-repeat;
+	background-position:center right;
+}
+
+.header-white{
+	background-color: #fff;
+	height:500px;
+	width: 50%;
+	float:right;
+	right:0;
+	background-image: url('../img/kangaroo-02.png');
+	background-repeat: no-repeat;
+	background-position:center left;
+}
+
+.home #branding{
+	position: absolute;
+    max-width: 100%;
+    margin-left: 5%;
+    z-index: 1;
+}
+
+.home .logo{
+	background-image: url('../img/kangaroo-fill-white.png');
+}
+
+.blocks{
+	position:relative;
+}
+
+.blocks h1{
+	position:absolute;
+	bottom: 10px;
+	color: #33475a;
+	text-transform: uppercase;
+	left: 48%;
+  	margin-left: -36px;
+}
+
+.home .call-to-action{
+	background-image: url('../img/higher-education.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:250px;
+}
+
+.home .call-to-action .button-outer button{
+	background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+    border-radius: 30px;
+    font-family: "oswald",sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+
+}
+
+.home .call-to-action button:hover{
+	background-color: #fff;
+	opacity: 0.5;
+	color: #202933;
+}
+
+.call-outer{
+	max-width:1140px;
+	margin: 0 auto;
+	display: table;
+	height: 250px;
+}
+
+.call-inner{
+	display: table-cell;
+	vertical-align:middle;
+}
+
+.button-outer{
+	text-align:center;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+}
+
+.call-inner .overview{
+	color: #fff;
+	margin-bottom: 1em;
+}
+
+.call-inner h2{
+	color: #fff;
+	margin-top: 55px;
+}
+
+.call-detail{
+	float: left;
+    margin-right: 1em;
+    color:#fff;
+}
+
+.call-detail.lrg{
+	float:none;
+	clear:both;
+}
+
+.call-inner .scholarship-spec {
+    margin-left: 0;
+}
+
+.home h1.entry-title{
+	display:none;
+}
+
+.home #container{
+	width:100%;
+	margin: 0;
+}
+
+.home #main{
+	width:100%;
+}
+
+/*card */
+
+.home .scholarship-card{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width:100%;
+	justify-content: space-around;
+}
+
+.home .scholarship-card .scholarship-details{
+	width: 30%;
+	background-color: #33475a;
+	color:#fff;
+    padding: 1%;
+    margin: 0.5%;
+}
+
+.home .scholarship-card .scholarship-details a{
+	color:#fff;
+	font-weight: normal;
+}
+
+.overview{
+	margin: 1em 0;
+}
+
+.scholarship-entry{
+	margin-left:30px;
+}
+
+/* end card */
+
+.home .scholarship-details:first-child{
+    background-color: #e25055;
+    color: #33475a;
+}
+
+.home .scholarship-details:first-child a{
+    color: #33475a;
+}
+
+.home .scholarship-details h2 {
+    display: inherit;
+    margin:0;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.home .scholarship-spec{
+    color: #fff;
+}
+    
+
+
+
+/* Single Scholarship */
+.home .scholarship-details h3{
+	display: inline;
+    margin-left: 10px;
+    font-size:1em;
+}
+
+.scholarship-spec{
+	display: inline;
+    margin-left: 10px;
+    font-size: 1.15em;
+    color: #33475a;
+}
+
+.scholarship-details .svg-inline--fa{
+	min-width: 1.25em;
+    min-height: 1.3em;
+    color: #e25055;
+}
+
+/* Archive Scholarship */
+.post-type-archive-scholarships .scholarships {
+	margin: 0;
+}
+
+.post-type-archive-scholarships .scholarships h2 {
+	font-size:1em;
+	margin: 0;
+}
+
+/* Favorite */
+
+.simplefavorite-button{
+	padding: 5px 9px;
+}
+
+.simplefavorite-button.active {
+    opacity: 1;
+}
+
+.home .entry-content .simplefavorite-button{
+		display:none;
+}
+
+ul.favorites-list {
+	margin-left:0;
+}
+
+/*Categories
+.cats{
+    width: 25%;
+    float: right;
+    background-color: #e25055;
+    padding: 1em;
+}
+
+*/
